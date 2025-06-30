@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FTech - Cursos</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" />
+  <link rel="stylesheet" href="./Styles/lp.css"/>
+</head>
+
+<body>
+  <div class="background-site"></div>
+  <div class="slogan-bg"></div>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#" class="brand">FTech</a>
+      <ul class="nav-links">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Abrir menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="head-slogan">
+      <p class="calling">
+        <strong class="titulo-destaque">Do fundo do mar</strong> ao topo do game!
+      </p>
+
+      <hr />
+
+      <div class="cursos-carrossel">
+        <ul class="cursos-lista">
+          <li><a href="#">FRONT-END</a></li>
+          <li><a href="#">BACK-END</a></li>
+          <li><a href="#">FULLSTACK</a></li>
+          <li><a href="#">DATA SCIENCE</a></li>
+          <li><a href="#">DEVOPS</a></li>
+        </ul>
+      </div>
+
+      <div class="background-site"></div>
+      <div class="imagem-bg"></div>
+    </section>
+
+    <section class="section-destaque">
+      <div class="conteudo-destaque">
+        <h2>Você no leme, ChatGPT a bordo Codifique seu futuro!</h2>
+        <p>
+          Com nossos cursos, domine o famoso <strong class="titulo-destaque">ChatGPT</strong> e decole na carreira de dev, sem enrolação!
+        </p>
+        <!-- Link com âncora para a seção dos planos -->
+        <a href="#planos" class="calling-plans">Conheça os planos</a>
+      </div>
+      <div class="imagem-destaque">
+        <img src="images/Code_guy.png" alt="Imagem cara codando" class="img-destaque" />
+      </div>
+    </section>
+
+    <!-- Seção dos planos -->
+    <section id="planos" class="planos-page">
+      <section class="planos-intro">
+        <h1>Escolha o plano perfeito para sua jornada</h1>
+        <div class="periodo-toggle">
+          <button class="toggle-btn active">Mensal</button>
+          <button class="toggle-btn">Anual (20% off)</button>
+        </div>
+      </section>
+
+      <section class="planos-container">
+        <div class="plano-card basico">
+          <div class="plano-header">
+            <h3>Basic</h3>
+            <div class="plano-preco">
+              <span class="valor">R$ 49</span>
+              <span class="periodo">/mês</span>
+            </div>
+          </div>
+          <ul class="plano-beneficios">
+            <li>Acesso a todos os cursos básicos</li>
+            <li>Suporte da comunidade</li>
+            <li>1 projeto prático por mês</li>
+            <li>Certificado digital</li>
+          </ul>
+          <button class="plano-btn">Comece agora</button>
+        </div>
+
+        <div class="plano-card destaque">
+          <div class="plano-header">
+            <div class="destaque-badge">Mais popular</div>
+            <h3>Standart</h3>
+            <div class="plano-preco">
+              <span class="valor">R$ 89</span>
+              <span class="periodo">/mês</span>
+            </div>
+          </div>
+          <ul class="plano-beneficios">
+            <li>Todos os benefícios do Básico</li>
+            <li>Acesso a cursos avançados</li>
+            <li>3 projetos práticos por mês</li>
+            <li>Mentoria coletiva semanal</li>
+            <li>Descontos em eventos</li>
+          </ul>
+          <button class="plano-btn destaque">Assine agora</button>
+        </div>
+
+        <div class="plano-card premium">
+          <div class="plano-header">
+            <h3>Premium</h3>
+            <div class="plano-preco">
+              <span class="valor">R$ 149</span>
+              <span class="periodo">/mês</span>
+            </div>
+          </div>
+          <ul class="plano-beneficios">
+            <li>Mentoria individual quinzenal</li>
+            <li>Projetos ilimitados</li>
+            <li>Consultores 24 horas</li>
+            <li>Acesso antecipado a novos cursos</li>
+            <li>Certificado físico</li>
+          </ul>
+          <button class="plano-btn">Quero Premium</button>
+        </div>
+      </section>
+
+      <section class="planos-faq"></section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
